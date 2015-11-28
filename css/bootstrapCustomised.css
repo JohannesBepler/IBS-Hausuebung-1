@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+body {
+  margin-top: 70px;
+  margin-bottom: 50px
+}
+
+.margintop1em {
+	margin-top: 1em;
+}
+.margintop2em {
+	margin-top: 2em;
+}
+.margintop3em {
+	margin-top: 3em;
+}
+
+.jumbotron {
+	border-right: solid 4px #80ba24
+}
+
+.row#wikisearchbutton {
+	margin-left: 0px;
+}
+
+h6#strong {
+	font-weight: bold;
+}
+.container#studieninhalte {
+	margin-top: 3em;
+}
+td.borderleft {
+	border-left: solid 1px;
+}
+td.blue {
+	background-color: #afcae0;
+}
+td.green {
+	background-color: #acfda9;
+}
+td.purple {
+	background-color: #c5a9d1;
+}
+td.grey {
+	background-color: #c8cac9;
+}
+
+
+.navbar {
+	border-bottom: solid 1px #80ba24;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #3b3b3b;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #4c4c4c;
+}
+.navbar-default .navbar-text {
+    color: #777;
+}
+.navbar-brand {
+	padding: 5px 15px;
+}
+.navbar .divider-vertical {
+height: 50px;
+margin-right:40px;
+border-right: 1px solid #ffffff;
+border-left: 1px solid #d9d9d9;
+}
+@media (max-width: 767px) {
+.navbar-collapse .nav > .divider-vertical {
+display: none;
+}
+}

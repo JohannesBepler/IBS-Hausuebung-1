@@ -18,7 +18,10 @@ body {
 .jumbotron {
 	border-right: solid 4px #80ba24
 }
-
+.blockquote-reverse > footer > a,
+.blockquote-reverse > footer > cite > a {
+    color: #224d74;
+}
 .row#wikisearchbutton {
 	margin-left: 0px;
 }
@@ -58,7 +61,7 @@ td.grey {
     color: #4c4c4c;
 }
 .navbar-default .navbar-text {
-    color: #777;
+    color: #4c4c4c;
 }
 .navbar-brand {
 	padding: 5px 15px;
@@ -73,4 +76,29 @@ border-left: 1px solid #d9d9d9;
 .navbar-collapse .nav > .divider-vertical {
 display: none;
 }
+}
+
+h1,
+.h1 {
+  font-size: 30px;
+}
+h2,
+.h2 {
+  font-size: 24px;
+}
+h3,
+.h3 {
+  font-size: 18px;
+}
+h4,
+.h4 {
+  font-size: 14px;
+}
+h5,
+.h5 {
+  font-size: 12px;
+}
+h6,
+.h6 {
+  font-size: 10px;
 }

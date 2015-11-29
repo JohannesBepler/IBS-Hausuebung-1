@@ -9,32 +9,43 @@
 <link href="css/bootstrapCustomised.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
-			<ul class="nav navbar-nav">
 
-				<div class="navbar-header">
-					<a class="navbar-brand" href="https://www.mni.thm.de/"
-						tabindex="-1"> <img alt="THM Logo" src="pictures/THM_Logo.png"
-						description=""></a>
-				</div>
 
+			<div class="navbar-header">
+
+				<button class="navbar-toggle" data-toggle="collapse"
+					data-target=".navcollapsed">
+					<span class="sr-only">Collapsed Navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="https://www.mni.thm.de/" tabindex="-1">
+					<img alt="THM Logo" src="pictures/THM_Logo.png" description="">
+				</a>
 				<p class="navbar-text">IBS - Projekt: Website in der Cloud</p>
-				<li role="separator" class="divider-vertical"></li>
+			</div>
+			<div class="collapse navbar-collapse navcollapsed">
+				<ul class="nav navbar-nav">
 
-				<li><a href="index.html">Start</a></li>
+					<li role="separator" class="divider-vertical"></li>
 
-				<li><a href="meinstudium.html">Mein Studium</a></li>
+					<li class="active"><a href="index.html">Start</a></li>
 
-				<li><a href="kollwiss.html">Kollektives Wissen</a></li>
+					<li><a href="meinstudium.html">Mein Studium</a></li>
 
-				<li><a href="thisproject.html">Über dieses Projekt</a></li>
-			</ul>
+					<li><a href="kollwiss.html">Kollektives Wissen</a></li>
 
-			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="impressum.html">Impressum</a></li>
-			</ul>
-		</div>
+					<li><a href="thisproject.html">Über dieses Projekt</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
 	</nav>
 
 	<div class="container">
@@ -105,6 +116,9 @@
 				werden wir derartige Inhalte umgehend entfernen.</p>
 		</div>
 	</div>
-
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>

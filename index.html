@@ -9,38 +9,46 @@
 <link href="css/bootstrapCustomised.css" rel="stylesheet">
 </head>
 <body>
-
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
-			<ul class="nav navbar-nav">
 
-				<div class="navbar-header">
-					<a class="navbar-brand" href="https://www.mni.thm.de/"
-						tabindex="-1"> <img
-						alt="Logo der Technischen Hochschule Mittelhessen" description=""
-						src="pictures/THM_Logo.png"></a>
-				</div>
 
+			<div class="navbar-header">
+
+				<button class="navbar-toggle" data-toggle="collapse"
+					data-target=".navcollapsed">
+					<span class="sr-only">Collapsed Navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="https://www.mni.thm.de/" tabindex="-1">
+					<img alt="THM Logo" src="pictures/THM_Logo.png" description="">
+				</a>
 				<p class="navbar-text">IBS - Projekt: Website in der Cloud</p>
+			</div>
+			<div class="collapse navbar-collapse navcollapsed">
+				<ul class="nav navbar-nav">
 
-				<li role="separator" class="divider-vertical"></li>
-			
-				<li class="active"><a href="index.html">Start</a></li>
+					<li role="separator" class="divider-vertical"></li>
 
-				<li><a href="meinstudium.html">Mein Studium</a></li>
+					<li class="active"><a href="index.html">Start</a></li>
 
-				<li><a href="kollwiss.html">Kollektives Wissen</a></li>
+					<li><a href="meinstudium.html">Mein Studium</a></li>
 
-				<li><a href="thisproject.html">Über dieses Projekt</a></li>
-			</ul>
+					<li><a href="kollwiss.html">Kollektives Wissen</a></li>
 
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="impressum.html">Impressum</a></li>
-			</ul>
-		</div>
+					<li><a href="thisproject.html">Über dieses Projekt</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
 	</nav>
 
-	
+
 
 	<div class="container">
 		<div class="col-sm-offset-1 col-sm-10">
@@ -59,7 +67,8 @@
 					</p>
 					<footer>
 						<a href="https://de.wikipedia.org/wiki/Tim_Berners-Lee"
-							target="_blank">Tim Berners-Lee</a> <cite><a
+							target="_blank">Tim Berners-Lee</a> <cite
+							title="Bloomberg Business - April 09, 2007"><a
 							href="http://www.bloomberg.com/bw/stories/2007-04-09/q-and-a-with-tim-berners-leebusinessweek-business-news-stock-market-and-financial-advice"
 							target="_blank">Bloomberg Business - April 09, 2007</a></cite>
 					</footer>
@@ -67,5 +76,64 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="container margintop3em">
+		<div class="col-sm-offset-1 col-sm-10">
+			<h2>Semantisches HTML 5 und CSS 3</h2>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-1 col-md-4">
+				<h3 class="col-sm-offset-4">Inhalt</h3>
+				<code class="orangefont"> &lt;html&gt; &lt;head&gt;
+					&lt;title&gt; &lt;base&gt; &lt;link&gt; &lt;meta&gt; &lt;style&gt;
+					&lt;body&gt; &lt;section&gt; &lt;nav&gt; &lt;h1&gt; &lt;h2&gt;
+					&lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt; &lt;header&gt;
+					&lt;footer&gt; &lt;address&gt; &lt;main&gt; &lt;p&gt; &lt;pre&gt;
+					&lt;hr&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;ul&gt; &lt;li&gt;
+					&lt;dl&gt; &lt;dt&gt; &lt;dd&gt; &lt;div&gt; &lt;a&gt;
+					&lt;small&gt; &lt;cite&gt; &lt;q&gt; &lt;abbr&gt; &lt;data&gt;
+					&lt;time&gt; &lt;dfn&gt; &lt;code&gt; &lt;var&gt; &lt;span&gt;
+					&lt;wbr&gt; &lt;img&gt; &lt;table&gt; &lt;caption&gt;
+					&lt;colgroup&gt; &lt;col&gt; &lt;tbody&gt; &lt;thead&gt;
+					&lt;tfoot&gt; &lt;tr&gt; &lt;td&gt; &lt;th&gt; &lt;form&gt;
+					&lt;fieldset&gt; &lt;legend&gt; &lt;label&gt; &lt;button&gt;
+					&lt;input&gt; &lt;select&gt; &lt;option&gt; &lt;textarea&gt;
+					&lt;output&gt; &lt;progress&gt; &lt;details&gt; &lt;summary&gt;
+					&lt;command&gt; &lt;menu&gt; &lt;meter&gt; &lt;output&gt;
+					&lt;keygen&gt; &lt;optgroup&gt; &lt;datalist&gt; &lt;embed&gt;
+					&lt;object&gt; &lt;param&gt; &lt;video&gt; &lt;audio&gt;
+					&lt;source&gt; &lt;track&gt; &lt;canvas&gt; &lt;map&gt;
+					&lt;area&gt; &lt;svg&gt; &lt;math&gt; &lt;ins&gt; &lt;del&gt;
+					&lt;br&gt; &lt;bdo&gt; &lt;bdi&gt; &lt;rp&gt; &lt;rt&gt;
+					&lt;ruby&gt; &lt;mark&gt; &lt;kbd&gt; &lt;samp&gt; &lt;script&gt;
+					&lt;noscript&gt; &lt;article&gt; &lt;aside&gt; &lt;base&gt; </code>
+			</div>
+
+			<div class="col-sm-offset-1 col-md-1">
+				<h3>vs.</h3>
+			</div>
+
+			<div class="col-md-4">
+				<h3 class="col-sm-offset-4">Form</h3>
+				<code class="bluefont">background block-progression border
+					bottom box-decoration-break box-shadow box-sizing calc caption-side
+					@charset clear clip clip-path color color-profile column columns
+					content counter-increment counter-reset cue cue-after cue-before
+					cursor direction display flex filter fit fit-position float font
+					@font-face font fr glyph-orientation-horizontal
+					glyph-orientation-vertical grid justify-content margin mark marquee
+					mask max-font-size max-height max-width @media min-font-size
+					transform:matrix() min-height min-width padding @page pause
+					perspective perspective-origin phonemes pointer-events position
+					punctuation-trim tab-size table-layout text top transform
+					transition vertical-align @viewport visibility white-space widows
+					width word wrap-option writing-mode z-index zoom </code>
+			</div>
+		</div>
+	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -22,6 +22,14 @@ body {
 .blockquote-reverse > footer > cite > a {
     color: #224d74;
 }
+code.orangefont {
+    background-color: #f9f2f4;
+    color: #da4800;
+}
+code.bluefont {
+    background-color: #f9f2f4;
+    color: #0080ff;
+}
 .row#wikisearchbutton {
 	margin-left: 0px;
 }
@@ -73,7 +81,8 @@ border-right: 1px solid #ffffff;
 border-left: 1px solid #d9d9d9;
 }
 @media (max-width: 767px) {
-.navbar-collapse .nav > .divider-vertical {
+.navbar-collapse .nav > .divider-vertical,
+.navbar-brand {
 display: none;
 }
 }
